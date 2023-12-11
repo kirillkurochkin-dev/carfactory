@@ -10,7 +10,7 @@ import ru.mvideoeldorado.mtech.kurochkin.carfactory.service.BodyService;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/CarBody")
+@RequestMapping("/carBody")
 public class BodyController {
     private final BodyService bodyService;
 

@@ -10,7 +10,7 @@ import ru.mvideoeldorado.mtech.kurochkin.carfactory.service.WheelService;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/CarWheel")
+@RequestMapping("/carWheel")
 public class WheelController {
     private final WheelService wheelService;
     @GetMapping
